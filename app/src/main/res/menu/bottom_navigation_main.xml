@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/download_bottom_menu"
+        android:icon="@drawable/ic_file_download_white_24dp"
+        android:title="Download"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/upload_bottom_menu"
+        android:icon="@drawable/ic_file_upload_white_24dp"
+        android:title="Upload"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/folder_bottom_menu"
+        android:icon="@drawable/ic_folder_white_24dp"
+        android:title="Folder"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/setting_bottom_menu"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="Settings"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
